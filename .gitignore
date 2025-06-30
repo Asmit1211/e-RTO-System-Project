@@ -1,0 +1,12 @@
+# Node.js
+node_modules
+.env
+dist
+
+# Vite
+frontend/dist
+frontend/node_modules
+
+# IDE
+.vscode
+.DS_Store
