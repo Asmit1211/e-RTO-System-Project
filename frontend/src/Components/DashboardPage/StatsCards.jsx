@@ -10,7 +10,7 @@ const StatsCards = () => (
     ].map((card, idx) => (
       <div
         key={idx}
-        className="flex-1 min-w-[220px] bg-white p-5 border-2 border-black rounded-lg shadow-sm"
+        className="flex-1 min-w-[220px] hover:bg-gray-300 hover:shadow-black p-5 border-2 border-white rounded-lg shadow-sm"
       >
         <h2 className="mb-2 font-semibold text-lg">{card.title}</h2>
         <span className="text-2xl font-bold">{card.count}</span>
